@@ -1,0 +1,11 @@
+site_name: Dispense matematica
+theme:
+  name: material
+
+# per supportare LaTeX via MathJax
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex

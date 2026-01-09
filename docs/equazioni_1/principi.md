@@ -1,24 +1,17 @@
-# Esercizi
+# I 2 Principi delle equazioni
 
-Risolvi le seguenti equazioni di secondo grado.
+Un'equazione è un'uguaglianza tra due espressioni algebriche in cui compare una o più incognite.
 
-## Livello base
+## Primo Principio
+Si può aggiungere o sottrarre uno stesso numero o espressione ad entrambi i membri senza cambiare l'equazione.
 
-1. $x^2 - 3x + 2 = 0$
-2. $x^2 + 4x + 4 = 0$
+Esempio:
 
----
+$$x + 5 = 12 \implies x + 5 - 5 = 12 - 5 \implies x = 7$$
 
-## Livello intermedio
+## Secondo Principio
+Si può moltiplicare o dividere entrambi i membri per uno stesso numero diverso da zero senza cambiare l'equazione.
 
-3. $2x^2 - x - 3 = 0$
-4. $3x^2 + 6x + 1 = 0$
+Esempio:
 
----
-
-## Suggerimento
-
-Per ogni esercizio:
-1. individua $a$, $b$, $c$;
-2. calcola il discriminante $\Delta$;
-3. applica la formula risolutiva.
+$$3x = 12 \implies \frac{3x}{3} = \frac{12}{3} \implies x = 4$$

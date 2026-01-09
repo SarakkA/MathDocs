@@ -1,45 +1,14 @@
-# Esempi svolti
+# Metodo risolutivo
 
-## Esempio 1
+Per risolvere un'equazione di primo grado:
 
-Risolvi l’equazione:
+1. Portare tutti i termini contenenti l'incognita su un lato.
+2. Portare i termini numerici sull'altro lato.
+3. Semplificare i termini simili.
+4. Dividere per il coefficiente dell'incognita.
 
-$$
-x^2 - 5x + 6 = 0
-$$
+Esempi:
 
-Calcoliamo il discriminante:
+$$2x + 5 = 13 \implies 2x = 13 - 5 \implies 2x = 8 \implies x = 4$$
 
-$$
-\Delta = (-5)^2 - 4 \cdot 1 \cdot 6 = 25 - 24 = 1
-$$
-
-Poiché $\Delta > 0$, l’equazione ha due soluzioni reali:
-
-$$
-x = \frac{5 \pm 1}{2}
-$$
-
-Quindi:
-
-$$
-x_1 = 3 \qquad x_2 = 2
-$$
-
----
-
-## Esempio 2
-
-Risolvi l’equazione:
-
-$$
-2x^2 + 4x + 2 = 0
-$$
-
-Il discriminante vale:
-
-$$
-\Delta = 4^2 - 4 \cdot 2 \cdot 2 = 0
-$$
-
-L’equazione ha **una soluzione doppia**.
+$$3x - 7 = 2x + 5 \implies 3x - 2x = 5 + 7 \implies x = 12$$

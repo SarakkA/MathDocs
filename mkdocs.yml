@@ -1,6 +1,29 @@
 site_name: Dispense matematica
+site_url: https://sarakka.github.io/MathDocs/
+
 theme:
+  language: it
   name: material
+  palette:
+    scheme: slate
+
+
+nav:
+  - Home: index.md
+  - Fondamenti di Algebra:
+      - Monomi: algebra/monomi.md
+      - Polinomi: algebra/polinomi.md
+      - Espressioni: algebra/espressioni.md
+      - Esercizi: algebra/esercizi.md
+  - Fondamenti di Geometria:
+      - Piano cartesiano: geometria/intro.md
+      - Pitagora: geometria/pitagora.md
+      - Area e perimetro: geometria/poligoni.md
+  - Equazioni 1° grado:
+      - Principi: equazioni_1/principi.md
+      - Metodo: equazioni_1/metodo.md
+      - Esercizi: equazioni_1/esercizi.md
+
 
 # per supportare LaTeX via MathJax
 markdown_extensions:
@@ -8,4 +31,11 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: true
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+watch:
+  - docs

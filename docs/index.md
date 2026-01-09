@@ -1,20 +1,41 @@
-# Benvenuti al sito di matematica
+# Benvenuti in MathDocs
 
-Questo è un esempio minimale con Markdown e LaTeX.
+---
 
-## Equazioni di secondo grado
+## 📘 Contenuti
 
-La formula risolutiva:
+### Fondamenti di Algebra
+- [Monomi e loro operazioni](algebra/monomi.md)  
+- [Polinomi e loro operazioni](algebra/polinomi.md)  
+- [Espressioni polinomiali](algebra/espressioni.md) 
 
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+### Fondamenti di Geometria
+- [Piano cartesiano, punto e segmento](geometria/intro.md)
+- [Teorema di Pitagora](geometria/pitagora.md)
+- [Area e perimetro di poligoni](geometria/poligoni.md)
 
-## Esercizio
+### Equazioni 1° grado
+- I 2 Principi delle equazioni
+- Metodo risolutivo
 
-Risolvi l'equazione:
+### La Retta
+- La funzione lineare e il suo grafico
+- Studio della retta
+- Retta passante per due punti
 
-$$
-2x^2 - 3x - 5 = 0
-$$
+### Equazioni 2° grado
+- Equazione generica e classificazione
+- Metodo risolutivo: Pure
+- Metodo risolutivo: Spurie
+- Metodo risolutivo: Complete
 
+### La Parabola
+- La funzione quadratica ed il suo grafico 
+- Studio della parabola 
+- Parabola passante per 3 punti
+
+### Disequazioni
+- Intervalli sulla retta reale
+- Disequazioni di 2° grado
+- Disequazioni di grado superiore al 2°
+- Disequazioni fratte

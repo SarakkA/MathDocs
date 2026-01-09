@@ -15,8 +15,8 @@
 - [Area e perimetro di poligoni](geometria/poligoni.md)
 
 ### Equazioni 1° grado
-- I 2 Principi delle equazioni
-- Metodo risolutivo
+- [I 2 Principi delle equazioni](equazioni_1/principi.md)
+- [Metodo risolutivo](equazioni_1/metodo.md)
 
 ### La Retta
 - La funzione lineare e il suo grafico

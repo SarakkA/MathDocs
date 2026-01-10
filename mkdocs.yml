@@ -5,7 +5,19 @@ theme:
   language: it
   name: material
   palette:
-    scheme: slate
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passa alla modalità scura
+
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passa alla modalità chiara
 
 
 nav:

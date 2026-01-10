@@ -1,6 +1,6 @@
 # Polinomi
 
-Un polinomio è un'espressione algebrica costituita dalla somma e differenza di più monomi.
+Un polinomio è un'espressione algebrica costituita dalla somma o differenza di più monomi.
 
 Esempi di polinomi:
 
@@ -16,15 +16,22 @@ Come per i monomi, si può fare solo tra termini simili.
 
 === "Somma 1"
 
-    $$4x^2+3x+6x^2-7x=$$
+    $$  \underline{4x}+3 +\underline{6x}= $$
     
-    $$10x^2-4x$$
+    $$ 10x +3 $$
 
 === "Somma 2"
+
+    $$ 4x^2+3x+6x^2-7x= $$
+    
+    $$ 10x^2-4x $$
+
+=== "Somma 3"
 
     $$8x^4-4x-5x^4-3x=$$
     
     $$3x^4-7x$$
+
 
 
 
@@ -91,16 +98,26 @@ I termini del primo polinomio moltiplicano tutti i termini del secondo:
 
 ### Quadrato di un binomio
 
-Svolgimento diretto:
+Supponiamo di voler calcolare $(x^2+2x)^2$
 
-$$(x^2+2x)^2=$$
+Possiamo procedere in due modi
 
-$$(x^2+2x)(x^2+2x)=$$
+=== "Svolgimento diretto"
 
-$$x^4+4x^3+4x^2$$
+    Utilizzando la definizione di quadrato:
 
-Oppure usando la formula:       $(a+b)^2=a^2+2ab+b^2$
+    $$(x^2+2x)^2=$$
 
-$$(x^2+2x)^2=$$
+    $$(x^2+2x)(x^2+2x)=$$
 
-$$x^4+4x^3+4x^2$$
+    $$x^4+4x^3+4x^2$$
+
+=== "Formula"
+
+    Oppure usando la formula:       $(a+b)^2=a^2+2ab+b^2$
+
+    quindi
+
+    $$(x^2+2x)^2=$$
+
+    $$x^4+4x^3+4x^2$$

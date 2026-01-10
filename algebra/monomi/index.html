@@ -62,10 +62,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -118,7 +120,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Passa alla modalità scura"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità scura" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Passa alla modalità chiara"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passa alla modalità chiara" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -828,32 +856,61 @@
 
 <h1 id="monomi">Monomi<a class="headerlink" href="#monomi" title="Permanent link">&para;</a></h1>
 <p>Un monomio è un'<strong>espressione algebrica</strong> costituita da un <strong>coefficiente</strong> (un numero) e una parte letterale (una potenza della variabile <span class="arithmatex">\(x\)</span>).</p>
-<ul>
-<li><span class="arithmatex">\(3x\)</span></li>
-<li><span class="arithmatex">\(-2x^2\)</span></li>
-<li><span class="arithmatex">\(\dfrac{2}{3}x^5\)</span></li>
-<li><span class="arithmatex">\(10x^3\)</span></li>
-</ul>
+<p><span class="arithmatex">\(3x\)</span></p>
+<p><span class="arithmatex">\(-2x^2\)</span></p>
+<p><span class="arithmatex">\(\dfrac{2}{3}x^5\)</span></p>
+<p><span class="arithmatex">\(10x^3\)</span></p>
 <div class="admonition definition">
 <p class="admonition-title">Definizione (Monomi simili)</p>
 <p>Due monomi si dicono <em>simili</em> se hanno stessa parte letterale.</p>
 </div>
-<ul>
-<li><span class="arithmatex">\(7x\)</span> e <span class="arithmatex">\(-2x\)</span> sono monomi simili</li>
-<li><span class="arithmatex">\(5x^3\)</span> e <span class="arithmatex">\(-4x^3\)</span> sono monomi simili</li>
-<li><span class="arithmatex">\(5x^2\)</span> e <span class="arithmatex">\(7x^3\)</span> <strong>NON</strong> sono monomi simili</li>
-</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Esempio 1</label><label for="__tabbed_1_2">Esempio 2</label><label for="__tabbed_1_3">Esempio 3</label><label for="__tabbed_1_4">Esempio 4</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><span class="arithmatex">\(7x\quad\)</span> e <span class="arithmatex">\(\quad2x\quad\)</span> sono monomi simili</p>
+</div>
+<div class="tabbed-block">
+<p><span class="arithmatex">\(5x^3\quad\)</span> e <span class="arithmatex">\(\quad-4x^3\quad\)</span> sono monomi simili</p>
+</div>
+<div class="tabbed-block">
+<p><span class="arithmatex">\(5x^2\quad\)</span> e <span class="arithmatex">\(\quad7x^3\quad\)</span> <strong>NON</strong> sono monomi simili</p>
+</div>
+<div class="tabbed-block">
+<p><span class="arithmatex">\(\dfrac{1}{2}x^2\quad\)</span> e <span class="arithmatex">\(\quad-x^2\quad\)</span> sono monomi simili</p>
+</div>
+</div>
+</div>
 <hr />
 <h3 id="somma-e-differenza-solo-tra-monomi-simili">Somma e differenza (solo tra monomi simili)<a class="headerlink" href="#somma-e-differenza-solo-tra-monomi-simili" title="Permanent link">&para;</a></h3>
-<p>La somma (o differenza) tra due monomi è il monomio che ha per:</p>
+<div class="admonition warning">
+<p class="admonition-title">Attenzione</p>
+<p>La somma o sottrazione tra monomi è possibile solo se questi sono <em>simili</em> tra loro.</p>
+</div>
+<p>La somma (o differenza) tra due monomi <strong>simili</strong> è il monomio che ha per:</p>
 <ul>
 <li><strong>coefficiente:</strong> la somma (o differenza) dei due coefficienti</li>
 <li><strong>esponente della parte letterale:</strong> invariato</li>
 </ul>
-<p>Esempi:</p>
-<div class="arithmatex">\[4x^2+3x^2=7x^2\]</div>
-<div class="arithmatex">\[5x^7-2x^7=3x^7\]</div>
-<div class="arithmatex">\[-3x+8x=5x\]</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Somma 1</label><label for="__tabbed_2_2">Somma 2</label><label for="__tabbed_2_3">Somma 3</label><label for="__tabbed_2_4">Somma 4</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="arithmatex">\[4x^2+3x^2=\]</div>
+<div class="arithmatex">\[7x^2\]</div>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[5x^7-2x^7=\]</div>
+<div class="arithmatex">\[3x^7\]</div>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[-3x+8x-2x=\]</div>
+<div class="arithmatex">\[3x\]</div>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[x^2+8x=\]</div>
+<div class="arithmatex">\[3x\]</div>
+</div>
+</div>
+</div>
 <hr />
 <h3 id="moltiplicazione-tra-monomi">Moltiplicazione tra monomi<a class="headerlink" href="#moltiplicazione-tra-monomi" title="Permanent link">&para;</a></h3>
 <p>Il prodotto tra due monomi è il monomio che ha per:</p>
@@ -861,10 +918,19 @@
 <li><strong>coefficiente:</strong> il prodotto dei due coefficienti</li>
 <li><strong>esponente della parte letterale:</strong> la somma dei due esponenti</li>
 </ul>
-<p>Esempi:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Moltiplicazione 1</label><label for="__tabbed_3_2">Moltiplicazione 2</label><label for="__tabbed_3_3">Moltiplicazione 3</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <div class="arithmatex">\[4x^5\cdot3x^2=12x^7\]</div>
+</div>
+<div class="tabbed-block">
 <div class="arithmatex">\[5x^2\cdot(-2x^4)=-10x^6\]</div>
+</div>
+<div class="tabbed-block">
 <div class="arithmatex">\[-5x\cdot(-x)=5x^2\]</div>
+</div>
+</div>
+</div>
 <hr />
 <h3 id="potenza-di-un-monomio">Potenza di un monomio<a class="headerlink" href="#potenza-di-un-monomio" title="Permanent link">&para;</a></h3>
 <p>La potenza di un monomio è il monomio che ha per:</p>
@@ -872,10 +938,19 @@
 <li><strong>coefficiente:</strong> la potenza del coefficiente</li>
 <li><strong>esponente della parte letterale:</strong> moltiplicazione degli esponenti</li>
 </ul>
-<p>Esempi:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Potenza 1</label><label for="__tabbed_4_2">Potenza 2</label><label for="__tabbed_4_3">Potenza 3</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <div class="arithmatex">\[(4x^3)^2=16x^6\]</div>
+</div>
+<div class="tabbed-block">
 <div class="arithmatex">\[(-3x^4)^3=-27x^12\]</div>
+</div>
+<div class="tabbed-block">
 <div class="arithmatex">\[(-5x)^2=25x^2\]</div>
+</div>
+</div>
+</div>
 
 
 

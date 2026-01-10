@@ -26,7 +26,6 @@ nav:
       - Monomi: algebra/monomi.md
       - Polinomi: algebra/polinomi.md
       - Espressioni: algebra/espressioni.md
-      - Esercizi: algebra/esercizi.md
   - Fondamenti di Geometria:
       - Piano cartesiano: geometria/intro.md
       - Pitagora: geometria/pitagora.md

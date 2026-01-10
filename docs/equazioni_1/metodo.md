@@ -7,8 +7,51 @@ Per risolvere un'equazione di primo grado:
 3. Semplificare i termini simili.
 4. Dividere per il coefficiente dell'incognita.
 
-Esempi:
+=== "Equazione 1"
 
-$$2x + 5 = 13 \implies 2x = 13 - 5 \implies 2x = 8 \implies x = 4$$
+    $$4x + 3 = 3x + 9$$ 
 
-$$3x - 7 = 2x + 5 \implies 3x - 2x = 5 + 7 \implies x = 12$$
+    Sottraggo $3x$
+
+    $$4x + 3 -3x= 3x + 9-3x$$ 
+
+    $$x + 3 = 9$$ 
+
+    Sottraggo $3$
+
+    $$x + 3 -3 = 9 -3$$ 
+
+    $$x= 6$$ 
+
+
+
+=== "Equazione 2"
+
+    $$ 3(x+4)=6+x $$ 
+
+    Semplifico le parentesi
+
+    $$3x+12=6+x$$
+
+    Sottraggo $x$
+
+    $$3x+12-x=6+x-x$$
+
+    $$2x+12=6$$
+
+    Sottraggo $12$
+
+    $$2x+12-12=6-12$$
+
+    $$2x = -6$$
+
+    Divido per 2
+
+    $$\dfrac{2x}{2} = \dfrac{-6}{2}$$
+
+    $$x = -3$$
+
+!!! info 
+    Ci sono modi diversi per risolvere la stessa equazione 
+    
+    l'importante è trovare il modo **di isolare la $x$** applicando i 2 principi

@@ -1,17 +1,12 @@
 # Espressioni polinomiali
 
-### Esercizi svolti
-
-Ricordandosi l'ordine delle operazioni: prima le potenze, poi le moltiplicazioni e infine somme e differenze.
-
-$$3x^2 + 2(2x - 3)^2 = 11x^2 + 24x + 18$$
-$$-x + (3 - 3x)^2 + (3 - 2x)(2x + 2) = 5x^2 - 17x + 15$$
-$$-3(3x^2 + x) - (2x - 1)^2 = -13x^2 + x - 1$$
+!!! tip "Suggerimento"
+    Prima le potenze, poi le moltiplicazioni e infine somme e differenze
 
 ### Esercizi con soluzione
 
 | Espressione | Soluzione |
-|-------------|-----------|
+|-------------------|-----------------|
 | $-4x^2 + (2x + 3)^2$ | $12x + 9$ |
 | $3x^2 + 2(3x - 1)^2$ | $21x^2 - 12x + 2$ |
 | $(2x + 1)(3x + 1) - 6$ | $6x^2 + 5x - 5$ |
@@ -22,5 +17,3 @@ $$-3(3x^2 + x) - (2x - 1)^2 = -13x^2 + x - 1$$
 | $-6x^2 + (3 - 3x)(x - 2)$ | $-9x^2 + 9x - 6$ |
 | $(4 - 2x)(4 - x) + (-x - 1)^2$ | $3x^2 - 10x + 17$ |
 | $(3 - x)^2 + (-x - 1)(3x + 1)$ | $-2x^2 - 10x + 8$ |
-
-*(Altri esercizi si possono aggiungere nello stesso formato di tabella Markdown)*

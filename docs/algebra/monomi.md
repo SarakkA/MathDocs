@@ -15,26 +15,26 @@ $10x^3$
 
 === "Esempio 1"
 
-    $7x\quad$ e $\quad2x\quad$ sono monomi simili
+    $7x\quad$ e $\quad2x\quad$ sono simili
 
 === "Esempio 2"
 
-    $5x^3\quad$ e $\quad-4x^3\quad$ sono monomi simili
+    $5x^3\quad$ e $\quad-4x^3\quad$ sono simili
 
 === "Esempio 3"
 
-    $5x^2\quad$ e $\quad7x^3\quad$ **NON** sono monomi simili
+    $5x^2\quad$ e $\quad7x^3\quad$ **NON** sono simili
 
 === "Esempio 4"
 
-    $\dfrac{1}{2}x^2\quad$ e $\quad-x^2\quad$ sono monomi simili
+    $\dfrac{1}{2}x^2\quad$ e $\quad-x^2\quad$ sono simili
 
 ---
 
-### Somma e differenza (solo tra monomi simili)
+### Somma e differenza
 
 !!! warning "Attenzione"
-    La somma o sottrazione tra monomi è possibile solo se questi sono *simili* tra loro.
+    La somma o differenza tra monomi è possibile solo se questi sono *simili* tra loro.
 
 La somma (o differenza) tra due monomi **simili** è il monomio che ha per:
 
@@ -59,12 +59,6 @@ La somma (o differenza) tra due monomi **simili** è il monomio che ha per:
     
     $$3x$$
 
-=== "Somma 4"
-
-    $$x^2+8x=$$
-    
-    $$3x$$
-
 ---
 
 ### Moltiplicazione tra monomi
@@ -76,15 +70,21 @@ Il prodotto tra due monomi è il monomio che ha per:
 
 === "Moltiplicazione 1"
 
-    $$4x^5\cdot3x^2=12x^7$$
+    $$4x^5\cdot3x^2=$$
+    
+    $$12x^7$$
 
 === "Moltiplicazione 2"
 
-    $$5x^2\cdot(-2x^4)=-10x^6$$
+    $$5x^2\cdot(-2x^4)=$$
+    
+    $$-10x^6$$
 
 === "Moltiplicazione 3"
 
-    $$-5x\cdot(-x)=5x^2$$
+    $$-5x\cdot(-x)=$$
+    
+    $$5x^2$$
 
 ---
 
@@ -97,12 +97,18 @@ La potenza di un monomio è il monomio che ha per:
 
 === "Potenza 1"
 
-    $$(4x^3)^2=16x^6$$
+    $$(4x^3)^2=$$
+    
+    $$16x^6$$
 
 === "Potenza 2"
 
-    $$(-3x^4)^3=-27x^12$$
+    $$(-3x^4)^3=$$
+    
+    $$-27x^{12}$$
 
 === "Potenza 3"
 
-    $$(-5x)^2=25x^2$$
+    $$(-5x)^2=$$
+    
+    $$25x^2$$

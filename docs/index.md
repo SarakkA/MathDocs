@@ -9,30 +9,15 @@
 - [Polinomi e loro operazioni](algebra/polinomi.md)  
 - [Espressioni polinomiali](algebra/espressioni.md) 
 
-### Fondamenti di Geometria
-- [Piano cartesiano, punto e segmento](geometria/intro.md)
-- [Teorema di Pitagora](geometria/pitagora.md)
-- [Area e perimetro di poligoni](geometria/poligoni.md)
-
 ### Equazioni 1° grado
 - [I 2 Principi delle equazioni](equazioni_1/principi.md)
 - [Metodo risolutivo](equazioni_1/metodo.md)
 
-### La Retta
-- La funzione lineare e il suo grafico
-- Studio della retta
-- Retta passante per due punti
-
 ### Equazioni 2° grado
-- Equazione generica e classificazione
-- Metodo risolutivo: Pure
-- Metodo risolutivo: Spurie
-- Metodo risolutivo: Complete
-
-### La Parabola
-- La funzione quadratica ed il suo grafico 
-- Studio della parabola 
-- Parabola passante per 3 punti
+- [Equazione generica e classificazione](equazioni_2/definizione.md)
+- [Metodo risolutivo: Pure](equazioni_2/pure.md)
+- [Metodo risolutivo: Spurie](equazioni_2/spurie.md)
+- [Metodo risolutivo: Complete](equazioni_2/complete.md)
 
 ### Disequazioni
 - Intervalli sulla retta reale

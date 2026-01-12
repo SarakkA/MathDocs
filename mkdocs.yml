@@ -4,6 +4,8 @@ site_url: https://sarakka.github.io/MathDocs/
 theme:
   language: it
   name: material
+  icon:
+    annotation: material/plus-circle
   palette:
     - scheme: default
       primary: indigo
@@ -26,18 +28,23 @@ nav:
       - Monomi: algebra/monomi.md
       - Polinomi: algebra/polinomi.md
       - Espressioni: algebra/espressioni.md
-  - Fondamenti di Geometria:
-      - Piano cartesiano: geometria/intro.md
-      - Pitagora: geometria/pitagora.md
-      - Area e perimetro: geometria/poligoni.md
   - Equazioni 1° grado:
       - Principi: equazioni_1/principi.md
       - Metodo: equazioni_1/metodo.md
       - Esercizi: equazioni_1/esercizi.md
+  - Equazioni 2° grado:
+      - Definizione: equazioni_2/definizione.md
+      - Pure: equazioni_2/pure.md
+      - Spurie: equazioni_2/spurie.md
+      - Complete: equazioni_2/complete.md
+      - Esercizi: equazioni_2/esercizi.md
 
 
 # per supportare LaTeX via MathJax
 markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
   - admonition
   - codehilite
   - toc:

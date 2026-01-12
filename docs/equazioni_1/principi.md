@@ -22,29 +22,67 @@ Un'**equazione** è un'uguaglianza tra due espressioni algebriche.
 !!! definition "Definizione (Soluzione di un'equazione)"
     La soluzione di un'equazione è quel valore che se sostituito alla $x$ la rende vera
 
-Ad esempio, la soluzione dell'equazione $x+8=10$ è 
+Ad esempio, data l' equazione
+
+$$x+8=10$$ 
+
+la sua soluzione è:
 
 $$x=2$$
 
-Per equazioni più complesse ci servono **i due principi delle equazioni**
+Perché sostituendo il valore $2$ nell'equazione, otteniamo un'uguaglianza vera
+
+$$2+8=10$$
 
 ---
-## Primo Principio
+Per risolvere equazioni più complesse ci servono **i due principi delle equazioni**
+
+## Primo Principio delle equazioni
 !!! tip "Primo Principio"
     Se si aggiunge o sottrae uno stesso valore **ad entrambi i membri** di un'equazione, la soluzione non cambia.
 
-$$x + 8 = 10$$
+=== "Esempio 1"
+    $$x + 8 = 10$$
 
-In questa equazione, andando a **sottrarre 8 ad entrambi i membri**
+    In questa equazione, andando a **sottrarre $8$ ad entrambi i membri**
 
-$$x + 8 \textcolor{red}{-8} = 10 \textcolor{red}{-8}$$
+    $$x + 8 \textcolor{red}{-8} = 10 \textcolor{red}{-8}$$
 
-Si riesce ad **isolare la x** e quindi trovare la soluzione
+    $$x = 10 - 8$$
 
-$$x = \boxed{2}$$
+    Si riesce ad **isolare la x** e quindi trovare la soluzione (1)
+    { .annotate }
+
+    1.  !!! info "Osservazione"
+        grazie al 1° principio, il termine $+8$ è stato "spostato" dall'altra parte dell'uguale **cambiandolo si segno**
+
+        In questo modo è stato possibile isolare la x
+
+    $$x = 2$$
+
+=== "Esempio 2"
+    $$x - 4 = 3$$
+
+    Qui invece, per **isolare la x**, bisogna **sommare $4$ ad entrambi i membri**
+
+    $$x - 4 \textcolor{red}{+4} = 3 \textcolor{red}{+4}$$
+
+    $$x = 3 + 4$$
+
+    Si riesce ad **isolare la x** e quindi trovare la soluzione (1)
+    { .annotate }
+
+    1.  !!! info "Osservazione"
+        grazie al 1° principio, il termine $+8$ è stato "spostato" dall'altra parte dell'uguale **cambiandolo si segno**
+
+        In questo modo è stato possibile isolare la x
+
+    $$x = 7$$
+
+
 
 ---
-## Secondo Principio
+## Secondo Principio delle equazioni
 !!! tip "Secondo Principio"
     Se si moltiplica o divide per uno stesso valore **ad entrambi i membri** di un'equazione, la soluzione non cambia.
 
@@ -53,6 +91,8 @@ $$3x = 12$$
 In questo caso, per isolare la x, devo **dividere per 3 entrambi i membri**
 
 $$\dfrac{3x}{\textcolor{red}{3}} = \dfrac{12}{\textcolor{red}{3}}$$
+
+$$x = \dfrac{12}{3}$$
 
 $$x = 4$$
 
@@ -93,5 +133,3 @@ Possiamo ora combinare i principi per risolvere l'equazione 3 e 4
 
     $$x=2$$
 
-!!! info 
-    Con il 1° principio, si riesce a *spostare* un addendo dall'altra parte dell'uguale **cambiandolo di segno**

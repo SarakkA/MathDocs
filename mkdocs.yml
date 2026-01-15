@@ -38,6 +38,8 @@ nav:
       - Spurie: equazioni_2/spurie.md
       - Complete: equazioni_2/complete.md
       - Esercizi: equazioni_2/esercizi.md
+  - Disequazioni:
+      - 2° grado: disequazioni/2_grado.md
 
 
 # per supportare LaTeX via MathJax

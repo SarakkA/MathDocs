@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://sarakka.github.io/MathDocs/geometria/pitagora/">
+        <link rel="canonical" href="https://sarakka.github.io/MathDocs/equazioni_2/spurie/">
       
       
+        <link rel="prev" href="../pure/">
+      
+      
+        <link rel="next" href="../complete/">
       
       
         
@@ -21,7 +25,7 @@
     
     
       
-        <title>Equazioni di secondo grado - Dispense matematica</title>
+        <title>Spurie - Dispense matematica</title>
       
     
     
@@ -78,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#equazioni-di-secondo-grado" class="md-skip">
+        <a href="#equazioni-di-secondo-grado-spurie" class="md-skip">
           Vai al contenuto
         </a>
       
@@ -114,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Equazioni di secondo grado
+              Spurie
             
           </span>
         </div>
@@ -536,18 +540,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -568,7 +574,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -586,7 +592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../equazioni_2/definizione/" class="md-nav__link">
+      <a href="../definizione/" class="md-nav__link">
         
   
   
@@ -614,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../equazioni_2/pure/" class="md-nav__link">
+      <a href="../pure/" class="md-nav__link">
         
   
   
@@ -639,10 +645,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../equazioni_2/spurie/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -658,6 +673,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -670,7 +686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../equazioni_2/complete/" class="md-nav__link">
+      <a href="../complete/" class="md-nav__link">
         
   
   
@@ -698,7 +714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../equazioni_2/esercizi/" class="md-nav__link">
+      <a href="../esercizi/" class="md-nav__link">
         
   
   
@@ -828,25 +844,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#il-discriminante" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Il discriminante
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -862,27 +859,35 @@
 
 
 
-<h1 id="equazioni-di-secondo-grado">Equazioni di secondo grado<a class="headerlink" href="#equazioni-di-secondo-grado" title="Permanent link">&para;</a></h1>
-<p>Una <strong>equazione di secondo grado</strong> è un’equazione della forma:</p>
+<h1 id="equazioni-di-secondo-grado-spurie">Equazioni di secondo grado spurie<a class="headerlink" href="#equazioni-di-secondo-grado-spurie" title="Permanent link">&para;</a></h1>
+<p>Prima ricordiamo un risultato fondamentale.</p>
+<div class="admonition theorem">
+<p class="admonition-title">Legge dell’annullamento del prodotto</p>
+<p>Se <span class="arithmatex">\(ab = 0\)</span>, allora<br />
+<span class="arithmatex">\(a = 0\)</span> <strong>oppure</strong> <span class="arithmatex">\(b = 0\)</span></p>
+</div>
+<p>Le equazioni spurie hanno la forma:</p>
+<div class="arithmatex">\[ax^2 + bx = 0\]</div>
+<p>Si procede prima <strong>raccogliendo la <span class="arithmatex">\(x\)</span></strong> poi, grazie alla legge dell'annullamento del prodotto, dividiamo in due equazioni</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Esempio 1</label><label for="__tabbed_1_2">Esempio 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="arithmatex">\[4x^2 + 8x = 0\]</div>
+<div class="arithmatex">\[x(4x + 8) = 0\]</div>
 <div class="arithmatex">\[
-ax^2 + bx + c = 0 \qquad (a \neq 0)
+\begin{aligned}
+x = 0 \quad \text{oppure} \quad &amp;4x + 8 = 0 \\
+&amp;x = -2
+\end{aligned}
 \]</div>
-<p>dove:
-- <span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(b\)</span>, <span class="arithmatex">\(c\)</span> sono numeri reali;
-- <span class="arithmatex">\(a\)</span> è il coefficiente del termine di secondo grado.</p>
-<hr />
-<h2 id="il-discriminante">Il discriminante<a class="headerlink" href="#il-discriminante" title="Permanent link">&para;</a></h2>
-<p>Si definisce <strong>discriminante</strong> il numero:
-hello
-$$
-\Delta = b^2 - 4ac
-$$</p>
-<p>In base al valore di <span class="arithmatex">\(\Delta\)</span> possiamo stabilire il numero di soluzioni:</p>
-<ul>
-<li><span class="arithmatex">\(\Delta &gt; 0\)</span> → due soluzioni reali distinte;</li>
-<li><span class="arithmatex">\(\Delta = 0\)</span> → una soluzione reale doppia;</li>
-<li><span class="arithmatex">\(\Delta &lt; 0\)</span> → nessuna soluzione reale.</li>
-</ul>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[-5x^2 + 4x = 0\]</div>
+<div class="arithmatex">\[x(-5x + 4) = 0\]</div>
+<div class="arithmatex">\[x = 0 \quad \text{oppure} \quad x = \tfrac{4}{5}\]</div>
+</div>
+</div>
+</div>
 
 
 

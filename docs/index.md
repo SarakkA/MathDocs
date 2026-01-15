@@ -21,6 +21,6 @@
 
 ### Disequazioni
 - Intervalli sulla retta reale
-- Disequazioni di 2° grado
+- [Disequazioni di 2° grado](disequazioni/2_grado.md)
 - Disequazioni di grado superiore al 2°
 - Disequazioni fratte

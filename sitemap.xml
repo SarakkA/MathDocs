@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sarakka.github.io/MathDocs/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/algebra/espressioni/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/algebra/monomi/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/algebra/polinomi/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/disequazioni/2_grado/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sarakka.github.io/MathDocs/disequazioni/3_grado/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_1/esercizi/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_1/metodo/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_1/principi/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_2/complete/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_2/definizione/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_2/esercizi/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_2/pure/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
          <loc>https://sarakka.github.io/MathDocs/equazioni_2/spurie/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <lastmod>2026-01-16</lastmod>
     </url>
 </urlset>

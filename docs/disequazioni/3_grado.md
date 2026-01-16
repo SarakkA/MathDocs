@@ -1,0 +1,91 @@
+# Disequazioni di grado superiore al secondo
+
+## Metodo risolutivo
+
+Risolvi la disequazione 
+
+$$(x - 1)(x^2 - 4) > 0$$
+
+### 1️⃣ Studio il segno dei singoli fattori
+
+Il primo fattore $x-1$ è una retta crescente che interseca in $x=1$
+
+![Segno della parabola](images/segno_retta_1.png)
+
+Il secondo fattore $x^2-4$ è una parabola con concavità positiva che interseca in $x= \pm 2$
+
+![Segno della parabola](images/segn2.png)
+
+### 2️⃣ Moltiplico i segni
+
+allineo i due segni, riporto 
+
+![Segno della parabola](images/tabella_segni.png)
+
+### 3️⃣ Soluzione della disequazione
+
+La disequazione richiede:
+
+$$
+f(x) > 0
+$$
+
+Quindi consideriamo **solo gli intervalli in cui la funzione è positiva**.
+
+![Segno della parabola](images/soluzione_tabella_segni.png)
+
+$$
+\boxed{S = \{-2 < x < 1\} \cup \{x > 2\}}
+$$
+
+---
+##  Alcuni esempi
+
+
+=== "Esempio 1"
+
+    $$
+    (-x^2 + 9)(3x - 4) \geq 0
+    $$
+
+    ![Segno della parabola](images/final_1.png)
+
+    
+    $$
+    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
+    $$
+
+    ---
+
+
+=== "Esempio 2"
+
+    $$
+    (-x^2 + 9)(3x - 4) \geq 0
+    $$
+
+    ![Segno della parabola](images/final_1.png)
+
+    
+    $$
+    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
+    $$
+
+
+    ---
+
+=== "Esempio 3"
+
+    $$
+    (-x^2 + 9)(3x - 4) \geq 0
+    $$
+
+    ![Segno della parabola](images/final_1.png)
+
+    
+    $$
+    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
+    $$
+
+
+---

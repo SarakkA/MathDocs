@@ -40,7 +40,7 @@ nav:
       - Esercizi: equazioni_2/esercizi.md
   - Disequazioni:
       - 2° grado: disequazioni/2_grado.md
-
+      - Grado superiore: disequazioni/3_grado.md
 
 # per supportare LaTeX via MathJax
 markdown_extensions:

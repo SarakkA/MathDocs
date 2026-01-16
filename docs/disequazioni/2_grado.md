@@ -1,5 +1,5 @@
 # Disequazioni di secondo grado  
-## Metodo geometrico (studio del segno)
+## Metodo di risoluzione geometrico (studio del segno)
 
 
 Risolvi la seguente disequazione:
@@ -47,7 +47,7 @@ $$
 
 Disegniamo la parabola rispetto l'asse delle $x$
 
-![Segno della parabola](segn1.png)
+![Segno della parabola](images/segn1.png)
 
 studiamo il **segno della funzione** nei vari intervalli.
 
@@ -59,7 +59,7 @@ In particolare:
 
 - mettiamo **N** nei punti in cui la funzione si annulla
 
-![Segno della parabola](segn2.png)
+![Segno della parabola](images/segn2.png)
 
 ---
 
@@ -73,12 +73,14 @@ $$
 
 Quindi consideriamo **solo gli intervalli in cui la funzione è negativa**.
 
-![Segno della parabola](segn3.png)
+![Segno della parabola](images/segn3.png)
 
 $$
 \boxed{S = \{-2 < x < 2\}}
 $$
 
+---
+##  Alcuni esempi
 
 === "Esempio 1"
 
@@ -102,8 +104,8 @@ $$
 
     La concavità della parabola è positiva in quanto $a > 0$, quindi
 
-    ![Segno della parabola](es_segno1_1.png)  
-    ![Segno della parabola](es_segno1_2.png)
+    ![Segno della parabola](images/es_segno1_1.png)  
+    ![Segno della parabola](images/es_segno1_2.png)
 
     La disequazione richiede:
 
@@ -111,7 +113,7 @@ $$
     f(x) > 0
     $$
 
-    ![Segno della parabola](es_segno1_3.png)
+    ![Segno della parabola](images/es_segno1_3.png)
 
     $$
     \boxed{S = \{x < 0\} \cup \{x > 2\}}
@@ -141,8 +143,8 @@ $$
 
     La concavità della parabola è negativa in quanto $a < 0$, quindi
 
-    ![Segno della parabola](es_segno2_1.png)  
-    ![Segno della parabola](es_segno2_2.png)
+    ![Segno della parabola](images/es_segno2_1.png)  
+    ![Segno della parabola](images/es_segno2_2.png)
 
     La disequazione richiede:
 
@@ -150,7 +152,7 @@ $$
     f(x) < 0
     $$
 
-    ![Segno della parabola](es_segno2_3.png)
+    ![Segno della parabola](images/es_segno2_3.png)
 
     $$
     \boxed{S = \{x < -1\} \cup \{x > 1\}}
@@ -178,8 +180,8 @@ $$
 
     La concavità della parabola è negativa in quanto $a < 0$, quindi
 
-    ![Segno della parabola](es_segno3_1.png)  
-    ![Segno della parabola](es_segno3_2.png)
+    ![Segno della parabola](images/es_segno3_1.png)  
+    ![Segno della parabola](images/es_segno3_2.png)
 
     La disequazione richiede:
 
@@ -187,7 +189,7 @@ $$
     f(x) \ge 0
     $$
 
-    ![Segno della parabola](es_segno3_3.png)
+    ![Segno della parabola](images/es_segno3_3.png)
 
     $$
     \boxed{S = \{-4 \le x \le 1\}}
@@ -217,8 +219,8 @@ $$
 
     La concavità della parabola è negativa in quanto $a < 0$, quindi
 
-    ![Segno della parabola](es_segno4_1.png)  
-    ![Segno della parabola](es_segno4_2.png)
+    ![Segno della parabola](images/es_segno4_1.png)  
+    ![Segno della parabola](images/es_segno4_2.png)
 
     La disequazione richiede:
 
@@ -226,8 +228,88 @@ $$
     f(x) \le 0
     $$
 
-    ![Segno della parabola](es_segno4_3.png)
+    ![Segno della parabola](images/es_segno4_3.png)
 
     $$
     \boxed{S = \{x \le -9\} \cup \{x \ge 0\}}
     $$
+
+##  Altri esempi particolari
+
+
+=== "Esempio 1"
+
+    $$
+    x^2-2x+1 > 0
+    $$
+
+    Risolvo l’equazione associata
+
+    $$
+    x^2-2x+1 = 0
+    $$
+
+    unica soluzione
+
+    $$
+    x = 1
+    $$
+
+    La concavità della parabola è positiva in quanto $a > 0$, quindi
+
+    ![Segno della parabola](images/segnodiff1.png)  
+    ![Segno della parabola](images/segnodiff2.png)
+
+    La disequazione richiede:
+
+    $$
+    f(x) > 0
+    $$
+
+    ![Segno della parabola](images/segnodiff3.png)
+
+    $$
+    \boxed{S = \{x < 1\} \cup \{x > 1\}}
+    $$
+
+    ---
+
+=== "Esempio 2"
+
+    $$
+    -3x^2-3 > 0
+    $$
+
+    Risolvo l’equazione associata
+
+    $$
+    -3x^2-3 = 0
+    $$
+
+    $$
+    x^2 = -1
+    $$
+
+    L'equazione è **impossibile** e quindi non ci sono punti di nullo $N$
+
+    La concavità della parabola è negativa in quanto $a < 0$, quindi
+
+    ![Segno della parabola](images/segnodiff11.png)  
+
+    La parabola è quindi **tutta negativa**
+
+    ![Segno della parabola](images/segnodiff12.png)
+
+    La disequazione richiede:
+
+    $$
+    f(x) > 0
+    $$
+
+    Ma la funzione non è mai positiva, dunque la disequazione è **impossibile**
+
+    $$
+    \boxed{S = \emptyset}
+    $$
+
+    ---

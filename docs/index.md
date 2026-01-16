@@ -20,7 +20,6 @@
 - [Metodo risolutivo: Complete](equazioni_2/complete.md)
 
 ### Disequazioni
-- Intervalli sulla retta reale
 - [Disequazioni di 2° grado](disequazioni/2_grado.md)
-- Disequazioni di grado superiore al 2°
+- [Disequazioni di grado superiore al 2°](disequazioni/3_grado.md)
 - Disequazioni fratte

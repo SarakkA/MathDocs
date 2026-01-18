@@ -18,7 +18,9 @@ Il secondo fattore $x^2-4$ è una parabola con concavità positiva che interseca
 
 ### 2️⃣ Moltiplico i segni
 
-allineo i due segni, riporto 
+allineo verticalmente i due segni, e li moltiplico tra loro.
+
+Il segno risultato lo riporto al di sotto
 
 ![Segno della parabola](images/tabella_segni.png)
 
@@ -48,11 +50,11 @@ $$
     (-x^2 + 9)(3x - 4) \geq 0
     $$
 
-    ![Segno della parabola](images/final_1.png)
+    ![Segno della parabola](images/es_segno_molt_1.png)
 
     
     $$
-    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
+    \boxed{S = \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
     $$
 
     ---
@@ -61,31 +63,17 @@ $$
 === "Esempio 2"
 
     $$
-    (-x^2 + 9)(3x - 4) \geq 0
+    (-3x^2 + 6x)(2x - 3) \leq 0
     $$
 
-    ![Segno della parabola](images/final_1.png)
+    ![Segno della parabola](images/es_segno_molt_2.png)
 
     
     $$
-    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
+    \boxed{S = \{x \geq 2\} \cup \{0 \leq x \leq \frac{3}{2}\} }
     $$
+
+
 
 
     ---
-
-=== "Esempio 3"
-
-    $$
-    (-x^2 + 9)(3x - 4) \geq 0
-    $$
-
-    ![Segno della parabola](images/final_1.png)
-
-    
-    $$
-    \boxed{S =  \cup \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
-    $$
-
-
----

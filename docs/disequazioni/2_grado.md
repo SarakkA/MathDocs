@@ -1,6 +1,5 @@
 # Disequazioni di secondo grado  
-## Metodo di risoluzione geometrico (studio del segno)
-
+## Metodo di risoluzione geometrico (studio del segno di funzione)
 
 Risolvi la seguente disequazione:
 

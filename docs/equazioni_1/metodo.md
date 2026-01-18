@@ -226,3 +226,12 @@ Per risolvere un'equazione di primo grado:
     Ci sono modi diversi per risolvere la stessa equazione 
     
     l'importante è trovare il modo **di isolare la $x$** applicando i 2 principi
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../esercizi/" class="md-button md-button--primary">
+    Esercizi →
+  </a>
+</div>

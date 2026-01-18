@@ -112,3 +112,12 @@ La potenza di un monomio è il monomio che ha per:
     $$(-5x)^2=$$
     
     $$25x^2$$
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../polinomi/" class="md-button md-button--primary">
+    Polinomi →
+  </a>
+</div>

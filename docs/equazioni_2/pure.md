@@ -17,7 +17,7 @@ Il metodo consiste nell’**isolare \(x^2\)** e poi applicare la **radice quadra
 
     $$x = \pm 2$$
 
-    !!! warning "Attenzione"
+    !!! tip "Nota"
         Quando si applica la radice quadrata **ad entrambi i membri**, si deve considerare anche la soluzione negativa.
 
         Si ottengono quindi due soluzioni
@@ -40,7 +40,16 @@ Il metodo consiste nell’**isolare \(x^2\)** e poi applicare la **radice quadra
     
     $$x^2 = -3$$
 
-    !!! warning "Attenzione"
+    !!! warning "Nota"
         Dato che non esiste la radice quadrata di un numero negativo.
 
         L’equazione è **impossibile** (non esiste un numero reale che al quadrato faccia -3)
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../spurie/" class="md-button md-button--primary">
+    Equazioni "spurie" →
+  </a>
+</div>

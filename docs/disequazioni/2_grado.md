@@ -271,7 +271,6 @@ $$
     \boxed{S = \{x < 1\} \cup \{x > 1\}}
     $$
 
-    ---
 
 === "Esempio 2"
 
@@ -311,4 +310,12 @@ $$
     \boxed{S = \emptyset}
     $$
 
-    ---
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../3_grado/" class="md-button md-button--primary">
+    Disequazioni superiori →
+  </a>
+</div>

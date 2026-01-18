@@ -127,3 +127,13 @@ Possiamo procedere in due modi equivalenti
     $$(x^2+2x)^2=$$
 
     $$x^4+4x^3+4x^2$$
+
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../espressioni/" class="md-button md-button--primary">
+    Espressioni →
+  </a>
+</div>

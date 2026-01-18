@@ -42,7 +42,7 @@ questa quantità viene chiamata **Delta** $\Delta = b^2 - 4ac$
     x_1 = 1 \qquad x_2 = -3
     $$
 
-    !!! note "Osservazione"
+    !!! tip "Nota"
         Se $\Delta > 0$ l'equazione ha **sempre due soluzioni**
 
 === "Esempio 2 – Soluzione doppia"
@@ -62,7 +62,7 @@ questa quantità viene chiamata **Delta** $\Delta = b^2 - 4ac$
     x_{1,2} = \frac{4 \pm \sqrt{0}}{4} = 1
     $$
 
-    !!! note "Osservazione"
+    !!! tip "Nota"
         Se $\Delta = 0$ l'equazione ha **una sola soluzione**
 
 === "Esempio 3 – Nessuna soluzione"
@@ -80,6 +80,14 @@ questa quantità viene chiamata **Delta** $\Delta = b^2 - 4ac$
 
     Non possiamo calcolare la radice quadrata di $\Delta$
 
-    !!! warning 
+    !!! warning "Nota" 
         Se $\Delta < 0$ l'equazione è **impossibile**
 
+
+---
+
+<div style="text-align: right;">
+  <a href="../esercizi/" class="md-button md-button--primary">
+    Esercizi →
+  </a>
+</div>

@@ -29,3 +29,11 @@
     - **pura** se \( b = 0 \)  
     - **spuria** se \( c = 0 \)  
     - **completa** se \( b \neq 0 \) e \( c \neq 0 \)
+
+---
+
+<div style="text-align: right;">
+  <a href="../pure/" class="md-button md-button--primary">
+    Equazioni "pure" →
+  </a>
+</div>

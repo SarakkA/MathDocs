@@ -133,3 +133,10 @@ Possiamo ora combinare i principi per risolvere l'equazione 3 e 4
 
     $$x=2$$
 
+---
+
+<div style="text-align: right;">
+  <a href="../metodo/" class="md-button md-button--primary">
+    Metodo risolutivo →
+  </a>
+</div>

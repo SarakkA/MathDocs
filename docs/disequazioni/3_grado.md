@@ -57,7 +57,6 @@ $$
     \boxed{S = \{x \leq -3\} \cup \{-\frac{4}{3} \leq x \leq 3\} }
     $$
 
-    ---
 
 
 === "Esempio 2"
@@ -73,4 +72,12 @@ $$
     \boxed{S = \{x \geq 2\} \cup \{0 \leq x \leq \frac{3}{2}\} }
     $$
 
-    ---
+
+
+---
+
+<div style="text-align: right;">
+  <a href="../fratte/" class="md-button md-button--primary">
+    Disequazioni fratte →
+  </a>
+</div>

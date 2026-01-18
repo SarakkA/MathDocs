@@ -73,7 +73,4 @@ $$
     \boxed{S = \{x \geq 2\} \cup \{0 \leq x \leq \frac{3}{2}\} }
     $$
 
-
-
-
     ---

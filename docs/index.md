@@ -22,4 +22,4 @@
 ### Disequazioni
 - [Disequazioni di 2° grado](disequazioni/2_grado.md)
 - [Disequazioni di grado superiore al 2°](disequazioni/3_grado.md)
-- Disequazioni fratte
+- [Disequazioni fratte](disequazioni/fratte.md)

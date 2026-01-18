@@ -41,6 +41,7 @@ nav:
   - Disequazioni:
       - 2° grado: disequazioni/2_grado.md
       - Grado superiore: disequazioni/3_grado.md
+      - Fratte: disequazioni/fratte.md
 
 # per supportare LaTeX via MathJax
 markdown_extensions:
